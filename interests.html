@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Games</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and general layout */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .games-section {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .game-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .game-container:hover {
+            transform: scale(1.05);
+        }
+
+        .game-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .game-description {
+            flex: 1;
+            padding: 10px;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .game-description h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for the mobile, nintendo, xbox categories */
+        .mobile-games {
+            background-color: #f1c4e5;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .nintendo-games {
+            background-color: #f9f5e6;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .xbox-games {
+            background-color: #e5f2f9;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        /* Aesthetic enhancements */
+        .section-title {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            font-style: italic;
+        }
+
+        /* Static container before the "Mobile Games" section */
+        .intro-container {
+            background-color: #ffecb3;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Static container before Mobile Games -->
+    <div class="intro-container">
+        Here's some games I like!
+		<p> I do everything on my phone, so a lot of what I've played have been only mobile games.</p>
+    </div>
+
+    <h2>Mobile Games</h2>
+    <div class="games-section mobile-games">
+        <div class="game-container">
+            <div class="game-img">
+                <img src="https://play-lh.googleusercontent.com/ameFGPYH-qhOSxdsSA_fA54I4Ch-eO8y7Pj4x6W6ejQkvKbhVjCehKlPerBY9X2L8ek" alt="WuWa">
+            </div>
+            <div class="game-description">
+                <h3>Wuthering Waves</h3>
+                <p>Gacha RPG. I like the movement in here a lot, you can use a grappling hook, and jump off high places without dying.</p>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div class="game-description">
+                <h3>Genshin Impact</h3>
+                <p>Fun game, but not necessarily my favorite, I get bored of it easily. Though I haven't gone that far into it.</p>
+            </div>
+            <div class="game-img">
+                <img src="https://play-lh.googleusercontent.com/iP2i_f23Z6I-5hoL2okPS4SxOGhj0q61Iyb0Y1m4xdTsbnaCmrjs7xKRnL6o5R4h-Yg" alt="Genshin">
+            </div>
+        </div>
+		
+		<div class="game-container">
+            <div class="game-description">
+				<h3>Reverse: 1999</h3>
+				<p>100% one of my most favorite mobile games I've ever played. I had to delete it early on due to other game obligations though.</p>
+            </div>
+            <div class="game-img">
+                <img src="https://play-lh.googleusercontent.com/ZHeSces9RzAuVArTza42biDow9-MNFf_jjRM118dPWn-RZrUqL7QEs11mi5Ax7aotv4" alt="Game 2">
+            </div>
+        </div
+		
+		
+		</div>
+		
+		
+		
+		<div class="game-container">
+            <div class="game-description">
+                <h3>AFK Journey</h3>
+                <p>Great for a mobile game. You get SO many rewards and it feels really fun to play.</p>
+            </div>
+            <div class="game-img">
+                <img src="https://play-lh.googleusercontent.com/R3uPV6IlI_xkiqw98gSo7RFJ4UL4i7z-su3AYcCNSU-valWSVHoewAG-fkpp6BVMB2oy" alt="Game 1">
+            </div>
+        </div>
+		
+    </div>
+
+    <h2>Nintendo Games</h2>
+	    <div class="intro-container">
+        <p> We used to have DS/DSi's so I've played a lot of those, including Switch Games.</p>
+    </div>
+	
+    <div class="games-section nintendo-games">
+        <div class="game-container">
+            <div class="game-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc82UaTGBAsjkx65IyxBscxk0hwAnawzEV_Q&s" alt="Game 3">
+            </div>
+            <div class="game-description">
+                <h3>Naruto: Path of the Ninja 2</h3>
+                <p>My favorite game from the DS era, it was my brothers. I used to make sure Every character was leveled up as high as they could be before doing any battles.</p>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div class="game-description">
+                <h3>Mario</h3>
+                <p>What can I say, I've played a lot of Mario and can't pick a favorite. Super 64 and bros were great tho.</p>
+            </div>
+            <div class="game-img"> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvi0tyPMRzJzuNyFAVR4qqxYowTqiQGbf5vg&s" alt="Game 4">
+            </div>
+        </div>
+    </div>
+
+    <h2>Xbox Games</h2>
+		    <div class="intro-container">
+        <p> The Xbox is my brothers, so I haven't played that many.</p>
+    </div>
+    <div class="games-section xbox-games">
+        <div class="game-container">
+            <div class="game-img">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ad944474-48c3-4adb-9059-75d10eab21b9/dd7valr-87adeaed-f35a-4d8e-b68f-6a31e7d43c3f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FkOTQ0NDc0LTQ4YzMtNGFkYi05MDU5LTc1ZDEwZWFiMjFiOVwvZGQ3dmFsci04N2FkZWFlZC1mMzVhLTRkOGUtYjY4Zi02YTMxZTdkNDNjM2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0ZofcwUt3MbqsKKAjDnOqAjltDsuBxtIWchHxjMQMbM" alt="Game 5">
+            </div>
+            <div class="game-description">
+                <h3>Hollow Knight</h3>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div class="game-description">
+                <h3>Omori</h3>
+            </div>
+            <div class="game-img">
+                <img src="https://70f186a60af817fe0731-09dac41207c435675bfd529a14211b5c.ssl.cf1.rackcdn.com/assets/attachments_p/000/090/409/size500_omori_nucleus_icon1.png" alt="Game 6">
+            </div>
+        </div>
+		
+        <div class="game-container">
+            <div class="game-description">
+                <h3>Little Nightmares & Bramble</h3>
+				<p> highly recommend </p>
+            </div>
+            <div class="game-img">
+                <img src="https://image.api.playstation.com/cdn/UP0700/CUSA05929_00/BCXhBnr9X5jjilzuc5tyv7GOcBukog6V.png" alt="Game 6">
+            </div>
+			<div class="game-img">
+                <img src="https://f4.bcbits.com/img/a3652351424_10.jpg" alt="Game 6">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

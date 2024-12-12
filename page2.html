@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Tutorial</title>
+    <link rel="stylesheet" href="chatstyles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Java Tutorial</h1>
+    </header>
+	
+	    <nav>
+        <ul>
+			<li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Java Tutorial</a></li>
+            <li><a href="page3.html">Essay</a></li>
+            <li><a href="page4.html">Blog</a></li>
+            <li><a href="page5.html">Art Portfolio</a></li>
+			<li><a href="page7.html">CMT</a></li>
+            <li><a href="page6.html">Contact Form</a></li>
+        </ul>
+    </nav>
+<br>
+    <article>
+        <h2>System.out.println</h2>
+        <p>This will be your friend. Learn it, know how to write it without using any reference. </p>
+		<br></br>
+		<p>Write it by hand at least 10 times, you should be annoyed at it by the time you're done.<br> </p>
+
+
+    </article>
+	
+	<body>
+<br>
+    <div class="container">
+        <label for="wordInput">Type the word code mentioned above without the ("");:</label>
+        <input type="text" id="wordInput">
+        <button onclick="checkWord()">Submit</button>
+        <div id="message"></div>
+    </div>
+<br>
+    <script>
+        function checkWord() {
+            const input = document.getElementById('wordInput').value;
+            const message = document.getElementById('message');
+
+            if (input === "System.out.println") {
+                message.innerHTML = '<div class="output">Correct!</div>';
+            } else {
+                message.innerHTML = '<div class="error">Incorrect, please try again.</div>';
+            }
+        }
+    </script>
+
+<h2> This is what the site is supposed to look like, but the formatting was a bit finicky.<h2>
+<p>  The actual written code parts are added by including a HTML embed. </p> <br>
+        <div class="button-links">
+            <a href="https://sites.google.com/emich.edu/rovercmtjava/java"target=”_blank><button>Java Tutorial (Real)</button></a>
+		</div> <br>
+
+
+
+</body>
+
+
+    <footer>
+        <p>&copy; 2024 RoverWorks</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
