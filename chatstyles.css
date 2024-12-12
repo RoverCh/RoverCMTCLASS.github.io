@@ -466,6 +466,45 @@ footer p {
     .artworks {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
+
+    /* Adjust button size and layout for smaller screens */
+    .button-links button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .gallery h2 {
+        font-size: 1.6em;
+    }
+
+    .artworks {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
     .button-links button {
         padding: 10px 20px;
         font-size: 0.9em;
