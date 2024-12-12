@@ -466,6 +466,14 @@ footer p {
     .artworks {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
+    .button-links button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .about-me {
+        width: 100%;
+    }
 }
 
 
